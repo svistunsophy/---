@@ -1,0 +1,118 @@
+body {
+    background-color: #e686af;
+}
+h1 {
+    text-align:center;
+    font-size: 300%;
+    border-style: solid;
+    border-width: 5px 10px;
+    border-color: #c01d64;
+    padding: 10px;
+    background: linear-gradient(45deg, #e22d7c, #ddabc1);
+}
+h2 {
+    border-left: 6px solid #e40e6b;
+}
+.displayed {
+    position:relative;
+    top: 360px;
+    left: 1100px;
+}
+.main_hr {
+    position:relative;
+    bottom: 590px;
+    margin: 20px 0;
+    padding: 0;
+    height: 6px;
+    border: none;
+    background: linear-gradient(45deg, #e22d7c, #ddabc1);
+}
+.footer_hr {
+    position:relative;
+    bottom: 680px;
+    margin: 20px 0;
+    padding: 0;
+    height: 6px;
+    border: none;
+    background: linear-gradient(45deg, #e22d7c, #ddabc1);
+}
+.content {
+    background-color: #c01d64;
+    position:relative;
+    width: 840px;
+    height: 580px;
+    bottom: 615px;
+    left: 330px;
+}
+.content-right {
+    background-color: #ddabc1;
+    position:relative;
+    width: 370px;
+    height: 470px;
+    bottom: 235px;
+    left: 425px;
+}
+.content-left {
+    background-color: #ddabc1;
+    width: 350px;
+    height: 290px;
+    font-size: 15px;
+    font-weight: 700;
+    position:relative;
+    top: 180px;
+    left: 50px;
+    border-radius: 20%;
+    text-align:center;
+}
+.main_picture {
+    position:relative;
+    width: 350px;
+    height: 450px;
+    top: 10px;
+    left: 10px;
+}
+.aside_picture_1 {
+    position:relative;
+    width: 350px;
+    height: 580px;
+    bottom: 20px;
+    right: 400px;
+}
+.aside_picture_2 {
+    transform: scale(-1,1);
+    position:relative;
+    width: 350px;
+    height: 580px;
+    bottom: 20px;
+    left: 490px;
+}
+.film_article {
+    position:relative;
+    bottom: 570px;
+    left: 100px;
+    font-size: 20px;
+}
+.music_article {
+    position:relative;
+    bottom: 848px;
+    left: 650px;
+    font-size: 20px;
+}
+.inf_header {
+    font-size: 30px;
+    font-weight: 700;
+    border-left: 6px solid #e40e6b;
+    margin-bottom: 10px;
+    position:relative;
+    bottom: 670px;
+    left: 100px;
+}
+.inf {
+    position:relative;
+    bottom: 650px;
+    left: 100px;
+    font-size: 20px;
+}
+
+
+
