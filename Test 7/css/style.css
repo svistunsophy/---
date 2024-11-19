@@ -34,8 +34,8 @@ pre {
 
 .container-img {
     position: fixed;
-    top: 485px;
-    left: 1360px;
+    bottom: 485px;
+    right: 10px;
     display: flex;
     align-items: center;
     width: 150px;
