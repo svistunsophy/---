@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабараторная работа №6</title>
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#navbar">
+                <img src="image/brand-icon.png" alt="Основная иконка" class="brand-icon">
+            </a>
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#navbar">Нил Ньюбон</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="films.html">Фильмы</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Навигация</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspy1">Карусель</a></li>
+                            <li><a class="dropdown-item" href="#scrollspy2">Игры</a></li>
+                            <li><a class="dropdown-item" href="#scrollspy3">Контакты</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Информация об актёре
+                        </button>
+                        <div class="collapse" id="collapseExample">
+                            <div class="info card card-body">
+                                <p>Дата рождения: 14 августа 1978 г.</p>
+                                <p>Дети: Коко Ньюбон</p>
+                                <p>Рост: 1,85 м</p>
+                                <p>Родители: Гари Ньюбон, Кати Ньюбон</p>
+                                <p>Братья: Лоуренс Ньюбон, Клэр Ньюбон</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div id="scrollspy1" class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/NeilNewbon1.jpg" alt="Изображение Нила Ньюбона" class="d-block"
+                        style="width:100%; height:800px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/NeilNewbon2.jpg" alt="Изображение Нила Ньюбона" class="d-block"
+                        style="width:100%; height:800px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/NeilNewbon3.jpg" alt="Изображение Нила Ньюбона" class="d-block"
+                        style="width:100%; height:800px;">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <section id="scrollspy2">
+            <div class="card" style="width: 1720px;">
+                <img src="image/Astarion.jpg" class="card-img-top" alt="Астарион">
+                <div class="card-body">
+                    <h2 class="card-title">Baldur's Gate 3</h2>
+                    <p class="card-text">Ролевая видеоигра 2023 года, разработанная и изданная Larian Studios. Благодаря
+                        Нилу Ньюбону мы узнаём историю белокурого эльфа Астариона, вампира, попавшего в беду вместе с
+                        главным героем.</p>
+                    <a href="https://larian.com/" class="btn btn-dark">Перейти на сайт игры</a>
+                </div>
+            </div>
+            <div class="card" style="width: 1720px;">
+                <img src="image/Haisenberg.jpg" class="card-img-top" alt="Хайзенберг">
+                <div class="card-body">
+                    <h2 class="card-title">Resident Evil Village</h2>
+                    <p class="card-text">Продолжение Resident Evil 7: Biohazard, разработанная компанией Capcom. Лицо
+                        актёра получил один из четырёх антагонистов игры: живущий на своём заводе оборотень по имени
+                        Хайзенберг.</p>
+                    <a href="https://capcom-europe.com/" class="btn btn-dark">Перейти на сайт игры</a>
+                </div>
+            </div>
+            <div class="card" style="width: 1720px;">
+                <img src="image/Elaidzha.jpeg" class="card-img-top" alt="Элайджа Камски">
+                <div class="card-body">
+                    <h2 class="card-title">Detroit: Become Human</h2>
+                    <p class="card-text">Приключенческая компьютерная игра с элементами «интерактивного кино» от студии
+                        Quantic Dream. Нил Ньюбон здесь предстаёт перед нами в роли гениального учёного, Элайджи Камски,
+                        который изобрёл Андроидов.</p>
+                    <a href="https://www.quanticdream.com/ru" class="btn btn-dark">Перейти на сайт игры</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <address id="scrollspy3">
+            <h2 class="h2" style="color: aliceblue; margin-left: 20px; margin-bottom: 20px;">С автором страницы можно
+                связаться:</h2>
+            <pre>
+                По эл. почте: <a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="mailto:svistunsona@gmail.com">svistunsona@gmail.com</a>
+                По телефону: <a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="tel:+79823089617">+7(982)308-96-17</a>
+            </pre>
+        </address>
+    </footer>
+</body>
+
+</html>
